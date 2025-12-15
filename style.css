@@ -14,6 +14,7 @@ ul {
 
 a {
     text-decoration: none;
+    color:#E5E7EB;
 }
 
 .header {
@@ -98,9 +99,122 @@ a {
 }
 
 .image {
-    min-width: 100px;
-    min-height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 15px;
     background-color: white;
-    border: 3px solid #3882F6;
+    border: 4px solid #3882F6;
+}
+
+.randomInfo {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    max-width: 150px;
+}
+
+.content h1 {
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.images p {
+    font-size: 18px;
+    color: #000000;
+}
+
+.qouteSurroundings {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    align-items: center;
+    margin-top: 80px;
+    padding: 100px;
+}
+
+.qoute {
+    display: flex;
+    flex-direction: column;
+}
+.qoute p {
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    width: 900px;
+    align-self: center;
+    text-align: left;
+}
+.qoute h1 {
+    margin: 0;
+    padding: 0;
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.callToAction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.callToActionModule {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    height: 100px;
+    width: 700px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.actionText h1 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.actionText p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 18px;
+}
+
+.actionText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.callToActionModule button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    width: 90px;
+    height: 30px;
+    margin: 0;
+}
+
+.actionButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
